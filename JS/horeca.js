@@ -36,10 +36,10 @@ function bitterballen() {
     var keuze = prompt("hoeveel bitterballen wil je bestellen 8 of 16 ?");
 
     if (keuze == "8") {
-        aantal_bitter8++;
+        aantal_bitter8 = aantal_bitter8 + parseInt(prompt("hoeveel schalen van 8 wilt u bestellen"));
     }
     else if (keuze == "16") {
-        aantal_bitter16++;
+        aantal_bitter16 = aantal_bitter16 + parseInt(prompt("hoeveel schalen van 16 wilt u bestellen"));
     }
     keuzebestelling();
 }
